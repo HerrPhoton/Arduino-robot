@@ -49,7 +49,7 @@ private:
     const float len2; // Distance from the ankle servo shaft to the end of the leg (cm)
 
 private:
-    Servo servo[12];
+    Servo servo[12]; // Array with all servos
 
     int zeroPositions[12]; // Initial positions of servos
     int directions[12]; // Direction of rotation of servos (1 - counterclockwise, -1 - clockwise)
