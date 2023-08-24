@@ -7,7 +7,9 @@ void setup()
 
   Robot robot;
 
-  robot.set_angles(90, 135, 90, 0);
+  robot.set_angles(90, 0, 45, 0);
+  delay(1000);
+  robot.set_angles(90, 90, 90, 0);
 }
 
 void loop() 
